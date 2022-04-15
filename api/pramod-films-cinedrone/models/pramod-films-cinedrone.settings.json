@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pramod_films_cinedrones",
+  "info": {
+    "name": "Pramod Films Cinedrone"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    }
+  }
+}

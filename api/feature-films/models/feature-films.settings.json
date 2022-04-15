@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feature_films",
+  "info": {
+    "name": "Feature Films"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    }
+  }
+}

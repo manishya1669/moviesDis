@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pramod-films-cinedrones",
+      "handler": "pramod-films-cinedrone.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pramod-films-cinedrones/count",
+      "handler": "pramod-films-cinedrone.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pramod-films-cinedrones/:id",
+      "handler": "pramod-films-cinedrone.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pramod-films-cinedrones",
+      "handler": "pramod-films-cinedrone.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pramod-films-cinedrones/:id",
+      "handler": "pramod-films-cinedrone.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pramod-films-cinedrones/:id",
+      "handler": "pramod-films-cinedrone.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

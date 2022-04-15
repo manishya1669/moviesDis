@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "televisions",
+  "info": {
+    "name": "Television"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Episode": {
+      "type": "string"
+    },
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
