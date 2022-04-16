@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "homes",
   "info": {
-    "name": "home"
+    "name": "home",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,9 @@
       "pluginOptions": {}
     },
     "Title": {
+      "type": "string"
+    },
+    "Description": {
       "type": "string"
     }
   }

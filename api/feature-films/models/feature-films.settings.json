@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "feature_films",
   "info": {
-    "name": "Feature Films"
+    "name": "Feature Films",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,33 @@
       "type": "string"
     },
     "Language": {
+      "type": "string"
+    },
+    "Cast": {
+      "type": "string"
+    },
+    "Director": {
+      "type": "string"
+    },
+    "Producer": {
+      "type": "string"
+    },
+    "Music": {
+      "type": "string"
+    },
+    "WrittenBy": {
+      "type": "string"
+    },
+    "Cinematography": {
+      "type": "string"
+    },
+    "Plot": {
+      "type": "string"
+    },
+    "Dialogues": {
+      "type": "string"
+    },
+    "ScreenPlay": {
       "type": "string"
     }
   }
