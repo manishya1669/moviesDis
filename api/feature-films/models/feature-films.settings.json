@@ -56,6 +56,12 @@
     },
     "ScreenPlay": {
       "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "Type": {
+      "type": "string"
     }
   }
 }

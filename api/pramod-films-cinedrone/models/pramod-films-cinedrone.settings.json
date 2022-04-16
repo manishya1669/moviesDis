@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "pramod_films_cinedrones",
   "info": {
-    "name": "Pramod Films Cinedrone"
+    "name": "Pramod Films Cinedrone",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -30,6 +31,12 @@
       "type": "string"
     },
     "language": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Producer": {
       "type": "string"
     }
   }

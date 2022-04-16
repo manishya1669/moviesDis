@@ -32,6 +32,24 @@
     },
     "Description": {
       "type": "string"
+    },
+    "feature_films": {
+      "collection": "feature-films"
+    },
+    "pramod_films_cinedrones": {
+      "collection": "pramod-films-cinedrone"
+    },
+    "Founder": {
+      "type": "string"
+    },
+    "CEO": {
+      "type": "string"
+    },
+    "FounderDetails": {
+      "type": "text"
+    },
+    "CEODetails": {
+      "type": "text"
     }
   }
 }
